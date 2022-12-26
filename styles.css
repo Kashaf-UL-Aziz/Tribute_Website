@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(238, 235, 235);
+  min-height: 100vh;
+  border: 5px solid black;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_section h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+}
+
+.img_container,
+img {
+  width: 300px;
+  height: 320px;
+}
+
+.img_container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about_section {
+  margin-top: 50px;
+}
+
+.about_section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about_section p {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.education_section {
+  margin-top: 50px;
+}
+
+.education_section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.education_section p {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+
+
+.Pakistan_section h1 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Pakistan_section p {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+footer{
+  margin: 50px 0;
+}
+footer p{
+  text-align: end;
+}
